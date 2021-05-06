@@ -1,0 +1,35 @@
+li  {
+    list-style: none;
+    margin: 0 20%;
+    padding: 0;
+    margin-bottom: 10px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background: #eee;
+}
+
+.selected {
+    background: red;
+}
+
+
+
+li:hover {
+    cursor: pointer;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+#heroes {
+    text-align: center;
+}
